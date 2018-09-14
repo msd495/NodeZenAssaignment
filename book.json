@@ -1,0 +1,13 @@
+[{
+    "isbn": "9781593275846",
+    "title": "Building APIs with Node.js",
+    "author": "Arjun"
+}, {
+    "isbn": "9781449331818",
+    "title": "Mastering Node.js",
+    "author": "zenrays"
+}, {
+    "isbn": "9781449365035",
+    "title": "Node.js_in_Action_(2014)",
+    "author": "Mike"
+}]
