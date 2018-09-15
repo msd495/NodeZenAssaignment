@@ -4,7 +4,7 @@ let bodyParser = require('body-parser');
 const PORT = '3000';
 let fs = require('fs');
 var path = require('path');
-let route=require('./route');
+let route = require('./route');
 
 
 
@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 
-app.use('/api/v1',route);
+app.use('/api/v1', route);
 
 
 
