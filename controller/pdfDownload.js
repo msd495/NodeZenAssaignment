@@ -43,7 +43,7 @@ module.exports = {
     // var stat = fs.statSync('./public/modules/datacollectors/output.pdf');
     // res.setHeader('Content-Length', stat.size);
     res.setHeader('Content-Type', 'application/pdf');
-    res.setHeader('Content-Disposition', 'attachment; filename=' + value + '.pdf');
+    res.setHeader('Content-Disposition', 'attachment; filename=' + value + '.pdf');//remove this line to show pdf.This line is to download pdf.
     file.pipe(res);
 
     }
